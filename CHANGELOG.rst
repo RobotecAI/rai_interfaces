@@ -2,6 +2,12 @@
 Changelog for package rai_interfaces
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Add action_msgs dependency for humble compatibility
+* Add maintainers to package.xml
+* Contributors: Kacper Dąbrowski
+
 0.2.1 (2025-04-28)
 ------------------
 * feat: add conversation id to HRI message (`#480 <https://github.com/RobotecAI/rai_interfaces/issues/480>`_)
