@@ -2,8 +2,8 @@
 Changelog for package rai_interfaces
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.2.2 (2025-04-30)
+------------------
 * Add action_msgs dependency for humble compatibility
 * Add maintainers to package.xml
 * Contributors: Kacper Dąbrowski
