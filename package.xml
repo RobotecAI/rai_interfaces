@@ -2,19 +2,16 @@
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
   <name>rai_interfaces</name>
-  <version>0.2.2</version>
+  <version>0.2.0</version>
   <description>Interfaces for RAI communication</description>
     <maintainer email="adam.dabrowski@robotec.ai">Adam Dabrowski</maintainer>
     <maintainer email="kajetan.rachwal@robotec.ai">Kajetan Rachwał</maintainer>
-    <maintainer email="maciej.majek@robotec.ai">Maciej Majek</maintainer>
-    <maintainer email="kacper.dabrowski@robotec.ai">Kacper Dąbrowski</maintainer>
   <license>Apache-2.0</license>
 
   <depend>std_msgs</depend>
   <depend>geometry_msgs</depend>
   <depend>vision_msgs</depend>
   <depend>sensor_msgs</depend>
-  <depend>action_msgs</depend>
 
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>

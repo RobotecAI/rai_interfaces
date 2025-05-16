@@ -14,12 +14,12 @@ find_package(ament_cmake REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(vision_msgs REQUIRED)
 find_package(sensor_msgs REQUIRED)
-find_package(action_msgs REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/ManipulatorMoveTo.srv"
   "srv/VectorStoreRetrieval.srv"
+  "srv/EmbodimentInfo.srv"
   "srv/StringList.srv"
   "msg/RAIDetectionArray.msg"
   "msg/AudioMessage.msg"
@@ -29,7 +29,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "action/Task.action"
   "action/TaskFeedback.action"
   "srv/WhatISee.srv"
-  DEPENDENCIES std_msgs vision_msgs sensor_msgs geometry_msgs action_msgs
+  DEPENDENCIES std_msgs vision_msgs sensor_msgs geometry_msgs
 )
 
 if(BUILD_TESTING)
