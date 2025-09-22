@@ -1,0 +1,11 @@
+# Goal
+float32 angle
+
+---
+# Result
+bool success
+string report
+
+---
+# Feedback
+string current_status

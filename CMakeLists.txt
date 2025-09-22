@@ -29,6 +29,9 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/RAIGroundedSam.srv"
   "action/Task.action"
   "action/TaskFeedback.action"
+  "action/NavigateToPose.action"
+  "action/DriveOnHeading.action"
+  "action/Spin.action"
   "srv/WhatISee.srv"
   DEPENDENCIES std_msgs vision_msgs sensor_msgs geometry_msgs action_msgs
 )
