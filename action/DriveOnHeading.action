@@ -1,5 +1,7 @@
 # Goal
 float32 distance
+float32 speed
+builtin_interfaces/Duration time_allowance
 
 ---
 # Result

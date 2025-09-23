@@ -1,5 +1,6 @@
 # Goal
-float32 angle
+float32 target_yaw
+builtin_interfaces/Duration time_allowance
 
 ---
 # Result

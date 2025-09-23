@@ -1,6 +1,9 @@
 # Goal
 geometry_msgs/PoseStamped pose
 
+# for compatibility with nav2_msgs/action/NavigateToPose
+string behavior_tree
+
 ---
 # Result
 bool success
