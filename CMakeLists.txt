@@ -23,6 +23,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/EmbodimentInfo.srv"
   "srv/StringList.srv"
   "srv/MoveArm.srv"
+  "srv/SetArmJoints.srv"
   "msg/RAIDetectionArray.msg"
   "msg/AudioMessage.msg"
   "msg/HRIMessage.msg"
