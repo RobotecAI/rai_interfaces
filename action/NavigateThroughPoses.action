@@ -1,0 +1,14 @@
+# Goal
+geometry_msgs/PoseStamped[] poses
+
+# for compatibility with nav2_msgs/action/NavigateToPose
+string behavior_tree
+
+---
+# Result
+bool success
+string report
+
+---
+# Feedback
+string current_status
