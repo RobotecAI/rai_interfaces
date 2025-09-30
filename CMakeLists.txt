@@ -35,6 +35,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "action/DriveOnHeading.action"
   "action/Spin.action"
   "action/NavigateThroughPoses.action"
+  "action/FollowWaypoints.action"
   "srv/WhatISee.srv"
   DEPENDENCIES std_msgs vision_msgs sensor_msgs geometry_msgs action_msgs
 )

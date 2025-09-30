@@ -1,0 +1,13 @@
+# Goal
+uint32 number_of_loops
+uint32 goal_index 0
+geometry_msgs/PoseStamped[] poses
+
+---
+# Result
+bool success
+string report
+
+---
+# Feedback
+string current_status
